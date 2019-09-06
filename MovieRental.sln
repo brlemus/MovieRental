@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental", "MovieRental\MovieRental.csproj", "{79EFF9BE-D093-44CE-9045-82F6F935C450}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental.Common", "MovieRental.Common\MovieRental.Common.csproj", "{FB839DFA-1A11-4655-820D-CD393C5976BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental.Core", "MovieRental.Core\MovieRental.Core.csproj", "{5015DAD0-E6B1-45B2-B48A-6AFE557F2B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRental.Persitence", "MovieRental.Persitence\MovieRental.Persitence.csproj", "{41CC9B80-DF3F-47E1-904F-D8519AFE8DED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{79EFF9BE-D093-44CE-9045-82F6F935C450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79EFF9BE-D093-44CE-9045-82F6F935C450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79EFF9BE-D093-44CE-9045-82F6F935C450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB839DFA-1A11-4655-820D-CD393C5976BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB839DFA-1A11-4655-820D-CD393C5976BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB839DFA-1A11-4655-820D-CD393C5976BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB839DFA-1A11-4655-820D-CD393C5976BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5015DAD0-E6B1-45B2-B48A-6AFE557F2B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5015DAD0-E6B1-45B2-B48A-6AFE557F2B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5015DAD0-E6B1-45B2-B48A-6AFE557F2B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5015DAD0-E6B1-45B2-B48A-6AFE557F2B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CC9B80-DF3F-47E1-904F-D8519AFE8DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CC9B80-DF3F-47E1-904F-D8519AFE8DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CC9B80-DF3F-47E1-904F-D8519AFE8DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CC9B80-DF3F-47E1-904F-D8519AFE8DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
