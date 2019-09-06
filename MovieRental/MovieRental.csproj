@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MovieRental.Common\MovieRental.Common.csproj" />
+    <ProjectReference Include="..\MovieRental.Core\MovieRental.Core.csproj" />
     <ProjectReference Include="..\MovieRental.Persitence\MovieRental.Persitence.csproj" />
   </ItemGroup>
 
