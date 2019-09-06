@@ -14,3 +14,6 @@ With respect to the database it is automatically generated in memory or you can 
 On the other hand, the API must be tested with Postman as indicated, then an example of the url of one of the endpoints to be consumed from this tool:
 
 https://movierentalbr.herokuapp.com/Movies/AllMovie.
+
+
+Note: in order to test the "returnMovie" endpoint please update the date of the RentalLog table to past to see the penalties for not delivering a movie in the stipulated time.
